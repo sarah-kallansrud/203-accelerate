@@ -47,6 +47,46 @@ Text Domain:  accelerate-theme-child
     text-transform: uppercase;
 }
 
+/******** Front Page styles **************/
+
+.featured-work {
+    display: flex;
+    padding-bottom: 95px;
+}
+
+.featured-work h4 {
+    font-size: 0.9375em;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    color: #3a3939;
+}
+
+.homepage-featured-work {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+}
+
+.homepage-featured-work li {
+    display: flex;
+    flex-direction: column;   
+}
+
+.individual-featured-work h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 1.031em;
+    color: #3b3b3b;
+}
+
 /********* Case Study Page styles **********/
 
 aside.case-study-sidebar {
@@ -80,9 +120,10 @@ aside.case-study-sidebar span {
     
 }
 
-.read-more-link a {
+aside.case-study-sidebar a {
     font-size: 1em;
-    font-style: uppercase;
+    text-transform: uppercase;
+    color: #45ac9d;
 }
 
 
