@@ -25,23 +25,22 @@ get_header(); ?>
                     <aside class="case-study-sidebar">
                         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></h2>
                         <h4><?php echo $services; ?></h4>
-                    
                         <?php the_excerpt(); ?>
-
-                        <p><strong><a href="<?php the_permalink(); ?>">View Project</a></strong></p>
+                        <p class="case-study-link"><strong><a href="<?php the_permalink(); ?>">View Project</a></strong></p>
 
                     </aside>
 
                     <div class="case-study-images">
-                        <?php if($image_1) { 
-                            echo wp_get_attachment_image( $image_1, $size );
-                        } ?>
+                        <a href="<?php the_permalink(); ?>">
+                            <?php if($image_1) { 
+                                echo wp_get_attachment_image( $image_1, $size );
+                            } ?>
+                        </a>
                         
                     </div> <!---- end of .case-study-images ------->
 
                 </article>
             
-				<?php the_excerpt(); ?>
 			<?php endwhile; // end of the loop. ?>
 	</div><!-- .main-content -->
 
