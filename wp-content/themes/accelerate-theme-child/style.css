@@ -136,15 +136,16 @@ div.case-study-images img {
 }
 
 nav.social-media-navigation {
-    padding-left: 90px;
+    padding-left: 70px;
 }
 
 .social-media-menu li {
     list-style-type: none;
-    border-radius: 95%;
-    color: red;
-    display: inline;
-    padding: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 1px;
+
 
 }
 
