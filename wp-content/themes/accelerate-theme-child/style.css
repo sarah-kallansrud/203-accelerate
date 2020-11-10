@@ -149,6 +149,47 @@ nav.social-media-navigation {
 
 }
 
+/********* Contact Page Styles ***********/
+
+.contact div#page.hfeed.site div#main.site-main.clearfix div#primary.site-content.sidebar {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.contact div#page.hfeed.site h2 {
+    color: #2b2b2b;
+    font-size: 1.56em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.contact div.nf-field-label {
+    font-weight: semibold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .87em;
+    color: #2b2b2b;
+}
+
+.contact div#nf-field-1-container.nf-field-container.textbox-container.label-above {
+    width: 49.5%;
+    display: inline-block;
+    padding-right: 22px;
+}
+
+.contact div#nf-field-2-container.nf-field-container.email-container.label-above {
+    width: 49.5%;
+    display: inline-block;
+}
+
+.contact input#nf-field-4.ninja-forms-field.nf-element {
+    float: right;
+    width: 200px;
+    color: #fff;
+    background-color: #45ac9d;
+}
+
 
 
 
