@@ -190,6 +190,32 @@ nav.social-media-navigation {
     background-color: #45ac9d;
 }
 
+/***** About Page styles ******/
+
+.about .main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about .hero-content h3 {
+    width: 46%;
+    margin: 0;
+    font-size: 1.56em;}
+
+.about #navigation h2 {
+    display: inline-block;
+    width: 30%;
+}
+
+.about #navigation a {
+    display: inline-block;
+    color: #fff;
+    width: 19%;
+    margin-left: 25px;
+}
+
+
+
 
 
 
