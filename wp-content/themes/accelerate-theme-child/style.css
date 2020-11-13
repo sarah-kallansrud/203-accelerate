@@ -202,6 +202,41 @@ nav.social-media-navigation {
     margin: 0;
     font-size: 1.56em;}
 
+.about .our-services h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .937em;
+}
+
+.about .our-services p {
+    text-align: center;
+    color: #3b3b3b;
+    font-size: 1.031em;
+}
+
+
+.about .about-services li{
+    list-style-type: none;
+    padding-bottom: 70px;
+
+}
+
+.about .about-services figure {
+    display: inline-block;
+    width: 216px;
+    margin-right: 107px;
+
+    }
+
+.about .services-text {
+    display: inline-block;
+    width: 612px;
+}
+
+.about #navigation {
+    padding-bottom: 20px;
+}
+
 .about #navigation h2 {
     display: inline-block;
     width: 30%;
