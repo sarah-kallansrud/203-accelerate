@@ -87,6 +87,35 @@ Text Domain:  accelerate-theme-child
     color: #3b3b3b;
 }
 
+.blog-post h3 {
+    font-size: 1.5em; 
+}
+
+.recent-tweets {
+    width: 50%;
+    float: right;
+    padding-left: 70px;
+}
+
+.recent-tweets h3 {
+    font-size: 1.5em;
+}
+
+.recent-tweets h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.twitter-link-text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
+
 
 /********* Case Study Page styles **********/
 
@@ -200,7 +229,17 @@ nav.social-media-navigation {
 .about .hero-content h3 {
     width: 46%;
     margin: 0;
-    font-size: 1.56em;}
+    font-size: 1.56em;
+}
+
+ .about .about-services ul {
+    width: 100%;
+    display: flex;
+ }
+
+ .about .our-services {
+     padding-bottom: 65px;
+ }
 
 .about .our-services h4 {
     text-align: center;
@@ -215,26 +254,60 @@ nav.social-media-navigation {
 }
 
 
-.about .about-services li{
+.about .about-services li {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
     list-style-type: none;
     padding-bottom: 70px;
+    margin:0;
+    padding: 0;
 
 }
+
+.about .services-text p {
+    text-align: left;
+}
+
+.about .about-services li:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0;
+}
+
 
 .about .about-services figure {
-    display: inline-block;
+    display: flex;
+    width: 35%;
+    align-self: center;
     width: 216px;
-    margin-right: 107px;
-
-    }
-
-.about .services-text {
-    display: inline-block;
-    width: 612px;
 }
 
+.about .services-text {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: baseline;
+    padding: 0;
+    margin: 0;
+}
+
+.about .services-text h3 {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.about .services-text p {
+    padding: 0;
+    margin: 0;
+}
+
+
 .about #navigation {
-    padding-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 50px;
 }
 
 .about #navigation h2 {
@@ -250,8 +323,41 @@ nav.social-media-navigation {
 }
 
 
+/***** 404 page styles *****/
+
+.error-page-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    padding: 0 0 500px 200px;
+    align-items: center;
 
 
+}
+
+.error-page-text :nth-child(1) {
+    font-size: 2em;
+
+}
+
+.error-page-text span {
+    font-weight: bolder;
+    text-transform: uppercase;
+
+
+}
+
+.error-page-text :nth-child(3) {
+    font-size: .70em;
+}
+
+.error-page {
+    background: url("img/mandalorian.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0); 
+    padding: 200px 0 200px 0;  
+
+}
 
 
 
