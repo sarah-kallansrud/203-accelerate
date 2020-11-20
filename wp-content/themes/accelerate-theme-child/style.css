@@ -47,6 +47,24 @@ Text Domain:  accelerate-theme-child
     text-transform: uppercase;
 }
 
+/******* Blog Page Styles ****************/
+
+#sidebar aside.mc4wp_form-widget .widget .widget_mc4wp_form_widget {
+	border-top: 1px solid #a6a6a6;
+}
+
+#mc4wp_form_widget-2 input[type="submit"] {
+	background: none repeat scroll 0 0 #45ac9d;
+    padding: 0;
+    width: 110%;
+}
+
+#mc4wp_form_widget-2 input[type="email"] {
+    margin-bottom: 10px;
+}
+
+
+
 /******** Front Page styles **************/
 
 .featured-work {
